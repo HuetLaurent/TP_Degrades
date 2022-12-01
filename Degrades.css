@@ -1,0 +1,26 @@
+#container{
+
+}
+
+.square{
+    display: flex;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+    border: 2px solid black;
+}
+
+.square:nth-child(1){
+    display: flex;
+    background-image: linear-gradient(to left bottom, red, green, blue);
+}
+
+.square:nth-child(2){
+    display: flex;
+    background-image: linear-gradient(-70deg, yellow 0%, purple 25%)
+}
+
+.square:nth-child(3){
+    display: flex;
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 1), rgba(0, 0, 0, 1));
+}
